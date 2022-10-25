@@ -11,13 +11,13 @@ import pe.edu.upeu.app.util.MsgBox;
 
 /**
  *
- * @author LABORATORIO_2--------------
+ * @author HELADERIO--------------
  */
 public class SysVentasGUIG1 {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        //new MsgBox("Mensaje de alerta", JOptionPane.WARNING_MESSAGE, "secrecy-icon.png");
+        //new MsgBox("Mensaje de alerta", JOptionPane.WARNING_MESSAGE, "mefll.");jpeg
         new Login().setVisible(true);
     }
 }
