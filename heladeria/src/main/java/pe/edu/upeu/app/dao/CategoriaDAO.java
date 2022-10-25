@@ -17,6 +17,14 @@ import pe.edu.upeu.app.dao.conx.Conn;
 import pe.edu.upeu.app.modelo.CategoriaTO;
 import pe.edu.upeu.app.util.ErrorLogger;
 
+<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
+========
+/**
+ *
+ * @author LABORATORIO_2
+ */
+public class ClienteDAO implements ClienteDaoI {
+>>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
 
 public class CategoriaDAO implements CategoriaDaoI{
     
@@ -36,9 +44,15 @@ public class CategoriaDAO implements CategoriaDaoI{
     @Override
     public int create(CategoriaTO d) {
         int rsId = 0;
+<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
         String[] returns = {"nombre"};
         String sql = "INSERT INTO categoria(nombre) "
                 + "VALUES(?)";
+========
+        String[] returns = {"dniruc"};
+        String sql = "INSERT INTO cliente(dniruc, nombrers, tipo) "
+                + "VALUES(?,?,?)";
+>>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
         int i = 0;
         try {
             ps = connection.prepareStatement(sql, returns);
@@ -94,9 +108,15 @@ public class CategoriaDAO implements CategoriaDaoI{
         return ls;}
 
     @Override
+<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
     public List<CategoriaTO> listarClientes() {
         List<CategoriaTO> listarclientes = new ArrayList<>();
         String sql = "SELECT * FROM categoria";
+========
+    public List listarClientes() {
+        List<ClienteTO> listarclientes = new ArrayList();
+        String sql = "SELECT * FROM cliente";
+>>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
         try {
             connection = new Conn().connectSQLite();
             ps = connection.prepareStatement(sql);
@@ -126,7 +146,13 @@ public class CategoriaDAO implements CategoriaDaoI{
         } catch (SQLException e) {
             System.out.println(e.toString());
         }
+<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
         return cliente;}
+========
+        return cliente;
+    }
+    
+>>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
 
     @Override
     public void reportarCliente() {

@@ -9,7 +9,11 @@ import pe.edu.upeu.app.modelo.CategoriaTO;
 
 /**
  *
+<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDaoI.java
  * @author HP
+========
+ * @author LABORATORIO_2
+>>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDaoI.java
  */
 public interface CategoriaDaoI {
 
@@ -21,9 +25,14 @@ public interface CategoriaDaoI {
 
     public List<CategoriaTO> listCmb(String filter);
 
+<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDaoI.java
     public List<CategoriaTO> listarClientes();
+========
+    public List listarClientes();
+>>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDaoI.java
 
     public CategoriaTO buscarClientes(String nombre);
 
     public void reportarCliente();
+
 }
