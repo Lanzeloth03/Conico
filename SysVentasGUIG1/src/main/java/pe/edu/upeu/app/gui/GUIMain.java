@@ -64,9 +64,8 @@ public class GUIMain extends JFrame {
               
                 jp = new JPanel();
                 jtpane.add("Prueba", jp);
-                MainCategoria MaC = new MainCategoria();
                 jp = new JPanel();
-                jtpane.add("add categoria", MaC);
+                jtpane.add("Preuba 2", jp);
                 JPanel pp = new JPanel();
                 pp.setPreferredSize(new Dimension(2000, 1000));
                 scrollPane = new JScrollPane(pp);
