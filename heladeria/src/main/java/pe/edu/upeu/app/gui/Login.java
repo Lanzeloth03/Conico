@@ -74,19 +74,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-<<<<<<< HEAD
         txtUsuario.setText("meryef");
-=======
-<<<<<<< HEAD
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/gui/Login.java
-        txtUsuario.setText("Lanzeloth");
-========
-        txtUsuario.setText("meryef");
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/gui/Login.java
-=======
-        txtUsuario.setText("meryef");
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
         txtUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtUsuarioActionPerformed(evt);
@@ -116,32 +104,11 @@ public class Login extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(txtUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/gui/Login.java
-                    .addComponent(txtClave))
-                .addGap(96, 96, 96))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(112, 112, 112))
-========
-=======
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
                     .addComponent(txtClave)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(23, 23, 23)))
                 .addGap(96, 96, 96))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/gui/Login.java
-=======
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -152,27 +119,9 @@ public class Login extends javax.swing.JFrame {
                 .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(txtClave, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
-<<<<<<< HEAD
                 .addGap(35, 35, 35)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(64, 64, 64))
-=======
-<<<<<<< HEAD
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/gui/Login.java
-                .addGap(33, 33, 33)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(66, 66, 66))
-========
-                .addGap(35, 35, 35)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(64, 64, 64))
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/gui/Login.java
-=======
-                .addGap(35, 35, 35)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(64, 64, 64))
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
         );
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
@@ -231,19 +180,7 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-<<<<<<< HEAD
         if (txtUsuario.getText().equals("meryef") && String.valueOf(txtClave.getPassword()).equals("123456")) {
-=======
-<<<<<<< HEAD
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/gui/Login.java
-        if (txtUsuario.getText().equals("lanzeloth") && String.valueOf(txtClave.getPassword()).equals("123456")) {
-========
-        if (txtUsuario.getText().equals("meryef") && String.valueOf(txtClave.getPassword()).equals("123456")) {
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/gui/Login.java
-=======
-        if (txtUsuario.getText().equals("meryef") && String.valueOf(txtClave.getPassword()).equals("123456")) {
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
             System.out.println("Entro Aqui!!");
             GUIMain guiMain = new GUIMain();
             guiMain.setVisible(true);

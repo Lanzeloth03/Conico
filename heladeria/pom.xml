@@ -25,31 +25,22 @@
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
             <scope>provided</scope>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
-        </dependency>
+        </dependency> 
+        
         <dependency>
             <groupId>com.github.davidmp</groupId>
             <artifactId>SysSwingDmp</artifactId>
             <version>v1.4</version>
-<<<<<<< HEAD
-        </dependency> 
-        <!-- https://mvnrepository.com/artifact/com.toedter/jcalendar -->
-        <dependency>
-            <groupId>com.toedter</groupId>
-            <artifactId>jcalendar</artifactId>
-            <version>1.4</version>
-        </dependency>
-       
-=======
-=======
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
-        </dependency>        
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
+        </dependency>  
+            <!-- https://mvnrepository.com/artifact/com.toedter/jcalendar -->
+    <dependency>
+        <groupId>com.toedter</groupId>
+        <artifactId>jcalendar</artifactId>
+        <version>1.4</version>
+    </dependency>              
     </dependencies>
-    
+
+
     <repositories>
         <repository>
             <id>jitpack.io</id>

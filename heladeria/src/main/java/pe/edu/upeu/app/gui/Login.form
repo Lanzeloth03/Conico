@@ -66,19 +66,6 @@
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="txtUsuario" pref="166" max="32767" attributes="0"/>
                       <Component id="txtClave" max="32767" attributes="0"/>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-                  </Group>
-                  <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace max="32767" attributes="0"/>
-                  <Component id="jButton1" min="-2" pref="107" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
-              </Group>
-=======
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
                       <Group type="102" alignment="1" attributes="0">
                           <Component id="jButton1" min="-2" pref="107" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
@@ -86,10 +73,6 @@
                   </Group>
                   <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
               </Group>
-<<<<<<< HEAD
-=======
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -101,21 +84,9 @@
                   <Component id="txtUsuario" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="txtClave" pref="39" max="32767" attributes="0"/>
-<<<<<<< HEAD
                   <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                   <Component id="jButton1" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-=======
-<<<<<<< HEAD
-                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" pref="45" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-=======
-                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" pref="45" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
               </Group>
           </Group>
         </DimensionLayout>
@@ -131,15 +102,7 @@
         </Component>
         <Component class="javax.swing.JTextField" name="txtUsuario">
           <Properties>
-<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="meryef"/>
-=======
-<<<<<<< HEAD
-            <Property name="text" type="java.lang.String" value="Lanzeloth"/>
-=======
-            <Property name="text" type="java.lang.String" value="meryef"/>
->>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUsuarioActionPerformed"/>

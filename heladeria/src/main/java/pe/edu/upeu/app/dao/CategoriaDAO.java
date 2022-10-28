@@ -17,24 +17,6 @@ import pe.edu.upeu.app.dao.conx.Conn;
 import pe.edu.upeu.app.modelo.CategoriaTO;
 import pe.edu.upeu.app.util.ErrorLogger;
 
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
-========
-<<<<<<< HEAD
-<<<<<<<< HEAD:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
-========
-=======
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
-/**
- *
- * @author LABORATORIO_2
- */
-public class ClienteDAO implements ClienteDaoI {
-<<<<<<< HEAD
->>>>>>>> 72e2f563068f93f72e04e8f34f0f8d712a94500d:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
-=======
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
 
 public class CategoriaDAO implements CategoriaDaoI{
     
@@ -54,28 +36,9 @@ public class CategoriaDAO implements CategoriaDaoI{
     @Override
     public int create(CategoriaTO d) {
         int rsId = 0;
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
         String[] returns = {"nombre"};
         String sql = "INSERT INTO categoria(nombre) "
                 + "VALUES(?)";
-========
-<<<<<<< HEAD
-<<<<<<<< HEAD:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
-        String[] returns = {"nombre"};
-        String sql = "INSERT INTO categoria(nombre) "
-                + "VALUES(?)";
-========
-        String[] returns = {"dniruc"};
-        String sql = "INSERT INTO cliente(dniruc, nombrers, tipo) "
-                + "VALUES(?,?,?)";
->>>>>>>> 72e2f563068f93f72e04e8f34f0f8d712a94500d:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
-=======
-        String[] returns = {"dniruc"};
-        String sql = "INSERT INTO cliente(dniruc, nombrers, tipo) "
-                + "VALUES(?,?,?)";
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
         int i = 0;
         try {
             ps = connection.prepareStatement(sql, returns);
@@ -131,28 +94,9 @@ public class CategoriaDAO implements CategoriaDaoI{
         return ls;}
 
     @Override
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
     public List<CategoriaTO> listarClientes() {
         List<CategoriaTO> listarclientes = new ArrayList<>();
         String sql = "SELECT * FROM categoria";
-========
-<<<<<<< HEAD
-<<<<<<<< HEAD:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
-    public List<CategoriaTO> listarClientes() {
-        List<CategoriaTO> listarclientes = new ArrayList<>();
-        String sql = "SELECT * FROM categoria";
-========
-    public List listarClientes() {
-        List<ClienteTO> listarclientes = new ArrayList();
-        String sql = "SELECT * FROM cliente";
->>>>>>>> 72e2f563068f93f72e04e8f34f0f8d712a94500d:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
-=======
-    public List listarClientes() {
-        List<ClienteTO> listarclientes = new ArrayList();
-        String sql = "SELECT * FROM cliente";
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
         try {
             connection = new Conn().connectSQLite();
             ps = connection.prepareStatement(sql);
@@ -182,24 +126,7 @@ public class CategoriaDAO implements CategoriaDaoI{
         } catch (SQLException e) {
             System.out.println(e.toString());
         }
-<<<<<<<< HEAD:heladeria/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
         return cliente;}
-========
-<<<<<<< HEAD
-<<<<<<<< HEAD:SysVentasGUIG1/src/main/java/pe/edu/upeu/app/dao/CategoriaDAO.java
-        return cliente;}
-========
-        return cliente;
-    }
-    
->>>>>>>> 72e2f563068f93f72e04e8f34f0f8d712a94500d:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a:heladeriaconico/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
-=======
-        return cliente;
-    }
-    
->>>>>>>> 063a35d6d06b7e1b990ea7bad0e3ba5959b6597a:heladeria/src/main/java/pe/edu/upeu/app/dao/ClienteDAO.java
->>>>>>> d5db0bc43394776e0f8364de9eb62d3604c7248a
 
     @Override
     public void reportarCliente() {
